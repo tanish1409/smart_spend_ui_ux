@@ -1,0 +1,23 @@
+{
+  "name": "smartspend-website",
+  "version": "1.0.0",
+  "description": "A modern, intuitive web application designed to help students track expenses, manage budgets, and gain financial clarity. Built as part of SOFE 4850U User Interfaces course project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6",
+    "recharts": "^3.5.0",
+    "vite": "^7.2.4"
+  },
+  "devDependencies": {}
+}

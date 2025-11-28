@@ -1,0 +1,128 @@
+.auth-page {
+  background-color: var(--color-background);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.auth-container {
+  background-color: var(--color-white);
+  padding: 60px 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.auth-container-large {
+  max-width: 650px;
+}
+
+.auth-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.reset-description {
+  font-size: 16px;
+  color: var(--color-text-primary);
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.auth-container form {
+  margin-bottom: 30px;
+}
+
+.auth-container .form-group {
+  margin-bottom: 25px;
+}
+
+.auth-container .form-group label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: 12px;
+}
+
+.auth-container .form-group input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.auth-container .form-group input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(47, 109, 178, 0.1);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 16px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #2558a0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(47, 109, 178, 0.3);
+}
+
+.btn-submit:active {
+  transform: translateY(0);
+}
+
+.auth-footer {
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-text-primary);
+  margin-top: 25px;
+}
+
+.auth-footer a {
+  color: var(--color-primary);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.auth-footer a:hover {
+  color: #2558a0;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .auth-container {
+    padding: 40px 30px;
+  }
+
+  .auth-container h1 {
+    font-size: 32px;
+  }
+
+  .auth-container .form-group label {
+    font-size: 16px;
+  }
+
+  .btn-submit {
+    font-size: 18px;
+  }
+}
