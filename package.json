@@ -1,6 +1,7 @@
 {
   "name": "smartspend-website",
   "version": "1.0.0",
+  "type": "module",
   "description": "A modern, intuitive web application designed to help students track expenses, manage budgets, and gain financial clarity. Built as part of SOFE 4850U User Interfaces course project.",
   "main": "index.js",
   "scripts": {
